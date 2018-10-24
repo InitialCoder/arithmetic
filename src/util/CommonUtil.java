@@ -27,6 +27,29 @@ public class CommonUtil {
 	}
 	
 	/**
+	 * 获取接近有序的数组
+	 * 当swapTime越大时 返回的数组越乱
+	 * 反之越有序，0时是完全有序的数组
+	 * @param n
+	 * @param swapTime
+	 * @return
+	 */
+	public static int[] getRangNearLyOrder(int n,int swapTime){
+		int[] arr=new int[n];
+		for (int i = 0; i < n; i++) {
+			arr[i]=i;
+		}
+		
+		for (int i = 0; i < swapTime; i++) {
+			int a=(int)Math.random()*n;
+			int b=(int)Math.random()*n;
+			swap(arr, a, b);
+		}
+		return arr;
+		
+	}
+	
+	/**
 	 * 元素交互
 	 * @param arr
 	 * @param i
@@ -34,6 +57,7 @@ public class CommonUtil {
 	 */
 	public static void swap(int[] arr, int i,int j){
 		//这种换发 当arr[i]==arr[j] 时会变成0
+		if(arr[i]==arr[j])return ;
 		arr[i]=arr[i]+arr[j];//5=3+2
 		arr[j]=arr[i]-arr[j];//2=5-3
 		arr[i]=arr[i]-arr[j];//3=5-2
@@ -51,10 +75,7 @@ public class CommonUtil {
 	 * @param arr
 	 * @throws Exception 
 	 */
-	public static void betterInser(int[] arr,int l,int r) throws Exception{
-		if(l>r){
-			throw new Exception("r mast larger then l");
-		}
+	public static void betterInser(int[] arr,int l,int r) {
 		int tem;
 		for(int i=l;i<=r;i++){
 			tem=arr[i];

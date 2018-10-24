@@ -3,6 +3,8 @@ package com.my.desinger.filter;
 import java.util.ArrayList;
 import java.util.List;
 
+import com.my.desinger.prototype.simple.Person;
+
 public class CriteriaFemale implements Criteria<Person>{
 
 	@Override

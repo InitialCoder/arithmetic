@@ -3,6 +3,7 @@ package com.my.desinger.filter;
 import java.util.ArrayList;
 import java.util.List;
 
+
 public class CriteriaMale implements Criteria<Person> {
 	
 	@Override

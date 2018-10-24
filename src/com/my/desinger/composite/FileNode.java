@@ -2,16 +2,13 @@ package com.my.desinger.composite;
 
 public class FileNode extends Node{
 
-	private String name;
-	
-	public FileNode(String name) {
-		this.name=name;
+	public FileNode(String fileName) {
+		super(fileName);
 	}
 	
 	@Override
 	public void display() {
-		
-		System.out.println(name);
+		System.out.println(fileName);
 	}
-
+	 
 }

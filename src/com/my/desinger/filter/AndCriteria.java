@@ -2,6 +2,7 @@ package com.my.desinger.filter;
 
 import java.util.List;
 
+
 public class AndCriteria implements Criteria<Person>{
 
 	private Criteria<Person> criteria;
