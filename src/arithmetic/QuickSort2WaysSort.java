@@ -49,7 +49,7 @@ public class QuickSort2WaysSort {
 	
 	
 	public static void main(String[] args) {
-		int n=10000000;
+		int n=1000000;
 		int m=10;
 		int[] arr = CommonUtil.getRang(1,100000, n);
 		int[] arrr=arr.clone();
@@ -58,23 +58,23 @@ public class QuickSort2WaysSort {
 		int[] arr11=arr1.clone();
 		QuickSort2WaysSort sort2=new QuickSort2WaysSort();
 		QuickSort sort=new QuickSort();
-		/*
+		
 		long t1=System.currentTimeMillis();
 		sort.sort(arr1);
 		long t2=System.currentTimeMillis();
 		sort2.sort(arr11);
 		long t3=System.currentTimeMillis();
 		System.out.println(" sort  repeatArr :"+(t2-t1));
-		System.out.println(" sort2  repeatArr :"+(t3-t2));*/
+		System.out.println(" sort2  repeatArr :"+(t3-t2));
 		
-		long t4=System.currentTimeMillis();
+		/*long t4=System.currentTimeMillis();
 		sort.sort(arr);
 		long t5=System.currentTimeMillis();
 		sort2.sort(arrr);
 		long t6=System.currentTimeMillis();
 		
 		System.out.println(" sort  CommontArr :"+(t5-t4));
-		System.out.println(" sort1  CommontArr :"+(t6-t5));
+		System.out.println(" sort1  CommontArr :"+(t6-t5));*/
 		
 	}
 }
