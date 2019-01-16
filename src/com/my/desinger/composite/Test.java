@@ -1,7 +1,16 @@
 package com.my.desinger.composite;
 
 import java.io.File;
-
+/**
+ * 
+ * 组合模式
+ *
+ * @ClassName: Test 
+ * @Description: 组合模式
+ * @author wu
+ * @date 2019-01-14 08:58:83
+ *
+ */
 class Test{
 	
 	public static void createNodes(Node node) throws Exception{
