@@ -7,16 +7,18 @@
         http://www.springframework.org/schema/context
         http://www.springframework.org/schema/context/spring-context.xsd">
 	
+	<!-- 根据bean 的名字自动生成代理 -->
 	<context:component-scan base-package="com.my.desinger.proxy.aop.*"/>
 	<bean id="advice" class="com.my.desinger.proxy.aop.around.GreetingAroundAdvice"> </bean>
 	<bean id="greetingImpl" class="com.my.desinger.proxy.aop.pattern.GreetingOtherImpl"> </bean>
+	<!-- 只对good开头的方法进行代理 -->
 	<bean id="greetingAdvisor" class="org.springframework.aop.support.RegexpMethodPointcutAdvisor">
 		<property name="advice" ref="advice"></property>
 		<property name="pattern" value="com.my.desinger.proxy.aop.pattern.GreetingOtherImpl.good.*"></property>
 	</bean>
 	
 	<bean class="org.springframework.aop.framework.autoproxy.BeanNameAutoProxyCreator">
-		<property name="beanNames" value="*Impl"/>
+		<property name="beanNames" value="*Impl"/><!-- 所有实现类 -->
 		<property name="interceptorNames" value="greetingAdvisor"/>
 		<property name="optimize" value="true"/>
 	</bean>
