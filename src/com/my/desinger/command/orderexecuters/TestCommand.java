@@ -1,4 +1,4 @@
-package com.my.desinger.command;
+package com.my.desinger.command.orderexecuters;
 
 /**
  * 命令模式：将一个或多个可执行的命令封装成一个对象，然后交给一个可以接受此对象的处理类处理，此类再负责将该命令集合对象分发给可以处理命令的对象具体执行命令

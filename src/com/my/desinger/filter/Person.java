@@ -9,6 +9,13 @@ public class Person {
 	public Person(int age) {
 		this.age=age;
 	}
+	
+	public Person(int age, String gender,String maritalStatus){
+		this.age=age;
+		this.gender=gender;
+		this.maritalStatus=maritalStatus;
+	}
+	
 	public int getAge() {
 		return age;
 	}

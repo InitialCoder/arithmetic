@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
+<properties>
+<entry key="app_preset_prof_preset_name">InterpreterPatternDemo Launch Configuration</entry>
+<entry key="app_preset_prof_preset_filter_s"/>
+<entry key="app_preset_prof_preset_filter_p">arithmetic.*,
+com.my.desinger.bridge.*,
+com.my.desinger.chainOfResponsibity.*,
+com.my.desinger.command.base.*,
+com.my.desinger.command.orderexecuters.*,
+com.my.desinger.command.remoteControll.*,
+com.my.desinger.composite.*,
+com.my.desinger.decorator.coffeebar.*,
+com.my.desinger.decorator.simple.*,
+com.my.desinger.expression.*,
+com.my.desinger.factory.*,
+com.my.desinger.filter.*,
+com.my.desinger.flyweight.*,
+com.my.desinger.future.*,
+com.my.desinger.observer.*,
+com.my.desinger.prototype.deep.*,
+com.my.desinger.prototype.simple.*,
+com.my.desinger.proxy.*,
+com.my.desinger.singleton.*,
+com.my.desinger.strategy.*,
+com.my.desinger.template.*,
+com.my.niuke.*,
+com.my.test.*,
+util.*</entry>
+<entry key="app_preset_prof_preset_alloc_p">10</entry>
+<entry key="app_preset_"/>
+<entry key="app_preset_prof_preset_samplingRefreshRate_s">1000</entry>
+<entry key="app_preset_prof_preset_stacks_p">false</entry>
+<entry key="app_preset_prof_preset_roots_p">arithmetic.**
+com.my.desinger.bridge.**
+com.my.desinger.chainOfResponsibity.**
+com.my.desinger.command.base.**
+com.my.desinger.command.orderexecuters.**
+com.my.desinger.command.remoteControll.**
+com.my.desinger.composite.**
+com.my.desinger.decorator.coffeebar.**
+com.my.desinger.decorator.simple.**
+com.my.desinger.expression.**
+com.my.desinger.factory.**
+com.my.desinger.filter.**
+com.my.desinger.flyweight.**
+com.my.desinger.future.**
+com.my.desinger.observer.**
+com.my.desinger.prototype.deep.**
+com.my.desinger.prototype.simple.**
+com.my.desinger.proxy.**
+com.my.desinger.singleton.**
+com.my.desinger.strategy.**
+com.my.desinger.template.**
+com.my.niuke.**
+com.my.test.**
+util.**
+</entry>
+<entry key="profiler.settings.instrument.empty.methods">false</entry>
+<entry key="myeclipse.profiling.mode">0</entry>
+<entry key="profiler.settings.istrument.getter.setter.methods">false</entry>
+<entry key="app_preset_prof_preset_samplingRate_s">100</entry>
+<entry key="app_preset_prof_preset_filterMode_s">true</entry>
+<entry key="app_preset_prof_preset_selector"/>
+<entry key="app_preset_prof_preset_refreshRate_s">1000</entry>
+<entry key="app_preset_prof_preset_runnables_p">true</entry>
+<entry key="app_preset_prof_preset_memoryMode_p">true</entry>
+<entry key="app_preset_prof_preset_filterMode_p">false</entry>
+</properties>
