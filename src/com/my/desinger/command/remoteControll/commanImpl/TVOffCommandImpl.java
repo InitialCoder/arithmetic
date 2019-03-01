@@ -1,6 +1,5 @@
 package com.my.desinger.command.remoteControll.commanImpl;
 
-import com.my.desinger.command.remoteControll.ICommand;
 import com.my.desinger.command.remoteControll.receives.TVReceive;
 /**
  * 关闭电视机具体命令实现

@@ -1,4 +1,4 @@
-package com.my.desinger.command.remoteControll;
+package com.my.desinger.command.remoteControll.receives;
 
 /**
  * 遥控某机器开关接口规范

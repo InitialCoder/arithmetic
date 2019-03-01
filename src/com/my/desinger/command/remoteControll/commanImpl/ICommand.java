@@ -1,4 +1,4 @@
-package com.my.desinger.command.remoteControll;
+package com.my.desinger.command.remoteControll.commanImpl;
 
 /**
  * 执行具体命令接口规范

@@ -1,7 +1,5 @@
 package com.my.desinger.command.remoteControll.receives;
 
-import com.my.desinger.command.remoteControll.Receive;
-
 public class HeaterReceive implements Receive{
 
 	@Override

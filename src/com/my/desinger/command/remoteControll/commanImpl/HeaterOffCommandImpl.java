@@ -1,6 +1,5 @@
 package com.my.desinger.command.remoteControll.commanImpl;
 
-import com.my.desinger.command.remoteControll.ICommand;
 import com.my.desinger.command.remoteControll.receives.HeaterReceive;
 
 public class HeaterOffCommandImpl implements ICommand{

@@ -3,6 +3,8 @@ package com.my.desinger.command.remoteControll;
 import java.util.ArrayList;
 import java.util.List;
 
+import com.my.desinger.command.remoteControll.commanImpl.ICommand;
+
 /**
  * 遥控器实现
  *

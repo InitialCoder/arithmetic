@@ -1,7 +1,5 @@
 package com.my.desinger.command.remoteControll.receives;
 
-import com.my.desinger.command.remoteControll.Receive;
-
 /**
  * 电视机开关命令封装
  *

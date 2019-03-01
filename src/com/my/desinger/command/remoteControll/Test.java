@@ -25,6 +25,8 @@ public class Test {
 		controller.setCommand(2, heateroff,heateron);
 		
 		
+		controller.pressOnButton(1);
+		controller.pressOnButton(2);
 		controller.pressOffButton(1);
 		controller.pressOffButton(2);
 	}
