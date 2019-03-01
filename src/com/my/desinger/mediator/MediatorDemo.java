@@ -3,6 +3,15 @@ package com.my.desinger.mediator;
 import com.my.desinger.mediator.colleagues.ColleagueImpl;
 import com.my.desinger.mediator.mediators.MediatorImpl;
 
+/**
+ * 中介者模式：赌钱后钱的计算场景
+ *
+ * @ClassName: MediatorDemo 
+ * @Description: TODO
+ * @author wu
+ * @date 2019-02-28 09:11:58
+ *
+ */
 public class MediatorDemo {
 
 	public static void main(String[] args) {

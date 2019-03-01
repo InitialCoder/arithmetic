@@ -1,5 +1,13 @@
 package com.my.desinger.observer.javaapi;
-
+/**
+ * 使用java pai 实现的观察者模式
+ *
+ * @ClassName: TestApiObserver 
+ * @Description: TODO
+ * @author wu
+ * @date 2019-02-28 09:14:00
+ *
+ */
 public class TestApiObserver {
 
 	public static void main(String[] args) {

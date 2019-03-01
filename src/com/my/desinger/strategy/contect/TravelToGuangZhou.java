@@ -11,7 +11,6 @@ public class TravelToGuangZhou {
 	
 	public void excuteBehavior(){
 		h1.action();
-		h1.action();
 		h2.action();
 	}
 }
